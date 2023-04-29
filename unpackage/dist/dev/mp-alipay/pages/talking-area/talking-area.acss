@@ -1,0 +1,173 @@
+
+.content{
+		width: 100%;
+}
+.mask{
+		position: fixed;
+		z-index: 3;
+		width:100%;
+		height: 100%;
+		top:0;
+		background-color:rgb(248, 248, 248);
+}
+.mask-content{
+		position: absolute;
+		top:200rpx;
+		padding: 20rpx;
+		background-color: white;
+		left:50%;
+		transform: translate(-50%);
+}
+.mask-content textarea{
+		height:400rpx;
+}
+.comment{
+		z-index:2;
+		position: fixed;
+		height:100rpx;
+		bottom:300rpx;
+		background-color:rgb(245, 245, 245);
+		width:100%;
+}
+.comment input{
+		background-color: white;
+		width:500rpx;
+		position: absolute;
+		left:50%;
+		transform: translate(-60%);
+		top:30rpx;
+		height: 60rpx;
+		padding:5rpx;
+		box-sizing: border-box;
+}
+.delete-post{
+		position: absolute;
+		right:50rpx;
+		top:20rpx;
+}
+.delete-comment{
+		position: absolute;
+		right:90rpx;
+		top:50rpx;
+}
+.warning{
+		font-size: small;
+		position:absolute;
+		bottom:400rpx;
+		width:500rpx;
+		left:50%;
+		transform: translate(-50%);
+}
+.submit-btn{
+		position: absolute;
+		bottom:200rpx;
+		left:50%;
+		transform: translate(-50%);
+		text-align: center;
+		color:white;
+		font-weight: 600;
+		line-height: 80rpx;
+		
+		width:700rpx;
+		height:80rpx;
+		background-color: aqua;
+		border-radius: 40rpx;
+}
+.wrap{
+		position: relative;
+		height:300rpx;
+		padding:20rpx;
+		box-sizing: border-box;
+}
+.wrap .creat-time{
+		position: absolute;
+		font-size: small;
+		bottom:20rpx;
+		color:grey;
+}
+.wrap .username{
+		position: absolute;
+		left:120rpx;
+		color:cornflowerblue;
+}
+.wrap .clickNum{
+		position: absolute;
+		left:300rpx;
+		font-size: small;
+		color:grey;
+}
+.wrap .post-content{
+		position: absolute;
+		top:100rpx;
+		left:120rpx;
+}
+.wrap .profile{
+		position: absolute;
+		left:10rpx;
+		border-radius: 40rpx;
+		height:80rpx;
+		width: 80rpx;
+		border: solid 1rpx;
+}
+.wrap .like{
+		position: absolute;
+		right:150rpx;
+		bottom:10rpx;
+}
+.wrap .comment-btn{
+		position: absolute;
+		right:20rpx;
+		bottom:20rpx;
+		width:100rpx;
+		height:45rpx;
+		border-radius: 30rpx;
+		text-align: center;
+}
+.add-btn{
+		position: fixed;
+		font-size: xx-large;
+		text-align: center;
+		line-height: 75rpx;
+		bottom: 40rpx;
+		right: 40rpx;
+		width:80rpx;
+		height:80rpx;
+		border-radius: 50rpx;
+		border:1rpx solid;
+		background-color: aqua;
+		color:white;
+}
+.show-comment{
+		text-align: center;
+}
+.comment-view{
+		position: relative;
+		background-color: rgb(245, 245, 245);
+		height: 200rpx;
+}
+.comment-view .comment-time{
+		position: absolute;
+		font-size: small;
+		left:100rpx;
+		top:30rpx;
+}
+.comment-view .comment-profile{
+		position: absolute;
+		width:50rpx;
+		height: 50rpx;
+		border-radius: 25rpx;
+		left:20rpx;
+		top:50rpx;
+		border:1rpx solid;
+}
+.comment-view .comment-content{
+		position: absolute;
+		width:500rpx;
+		left:100rpx;
+		top:60rpx;
+}
+.comment-view .comment-like{
+		position: absolute;
+		right:20rpx;
+		top:50rpx;
+}

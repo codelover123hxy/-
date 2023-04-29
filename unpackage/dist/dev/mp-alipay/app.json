@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/index/index",
+    "pages/personal-center/personal-center",
+    "pages/talking-area/talking-area",
+    "pages/search/search",
+    "pages/article/article",
+    "pages/suggestion/suggestion",
+    "pages/change-info/change-info",
+    "pages/my-collection/my-collection"
+  ],
+  "window": {
+    "defaultTitle": "uni-app",
+    "titleBarColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#7A7E83",
+    "selectedColor": "3cc51f",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "./static/index.png",
+        "activeIcon": "./static/index-clicked.png"
+      },
+      {
+        "pagePath": "pages/talking-area/talking-area",
+        "name": "交流论坛",
+        "icon": "./static/talking-area.png",
+        "activeIcon": "./static/talking-area-clicked.png"
+      },
+      {
+        "pagePath": "pages/personal-center/personal-center",
+        "name": "个人中心",
+        "icon": "./static/personal-center.png",
+        "activeIcon": "./static/personal-center-clicked.png"
+      }
+    ]
+  },
+  "subPackageBuildType": "shared",
+  "usingComponents": {}
+}

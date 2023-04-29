@@ -1,0 +1,1 @@
+.wrap{padding:30rpx}.password{border-bottom:1rpx solid rgba(1,1,1,.2);position:absolute;right:20rpx;width:500rpx;height:70rpx}.password-view{height:70rpx}.submit-btn{background-color:#1da9ff;width:500rpx;color:#fff;font-weight:700;margin:50rpx auto;height:80rpx;border-radius:40rpx;text-align:center;line-height:80rpx}

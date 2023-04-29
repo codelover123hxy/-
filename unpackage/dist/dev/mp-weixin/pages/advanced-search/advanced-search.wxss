@@ -1,0 +1,39 @@
+
+.content{
+		padding: 20rpx;
+}
+.results{
+		margin-top: 50rpx;
+		height:900rpx;
+}
+.upload-btn{
+		width:200rpx;
+		height:70rpx;
+		background-color: aliceblue;
+		margin: 50rpx auto;
+		text-align: center;
+		line-height: 70rpx;
+}
+.list{
+		padding: 30rpx;
+		box-sizing: border-box;
+		width:650rpx;
+		height:700rpx;
+		border: solid 1rpx;
+		border-radius: 20rpx;
+		margin: 100rpx auto;
+}
+.left,.right{
+		text-align: center;
+		line-height: 50rpx;
+		width:150rpx;
+		height:50rpx;
+		background-color: #85a97b;
+		margin:10rpx;
+}
+.header{
+		display: flex;
+		margin:20rpx auto;
+		width: -webkit-fit-content;
+		width: fit-content;
+}

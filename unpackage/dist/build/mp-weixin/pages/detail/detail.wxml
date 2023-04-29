@@ -1,0 +1,1 @@
+<view class="content"> 文章:{{a}} <view class="" style="text-indent:2em"><block wx:for="{{b}}" wx:for-item="item"><view> 内容: {{item.a}}</view> 关键词: <view class="" style="text-indent:2em"><block wx:for="{{item.b}}" wx:for-item="item2"><view>{{item2.a}}</view></block></view> {{item.c}}</block></view></view>

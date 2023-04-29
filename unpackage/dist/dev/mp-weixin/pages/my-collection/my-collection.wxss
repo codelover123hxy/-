@@ -1,0 +1,19 @@
+
+.switch-view{
+		display: flex;
+		margin:30rpx auto;
+		width: -webkit-fit-content;
+		width: fit-content;
+}
+.switch{
+		margin:10rpx;
+}
+.favors{
+		padding: 20rpx;
+		box-sizing: border-box;
+		height:900rpx;
+		width:650rpx;
+		margin:20rpx auto;
+		border-radius: 20rpx;
+		border:1rpx solid;
+}

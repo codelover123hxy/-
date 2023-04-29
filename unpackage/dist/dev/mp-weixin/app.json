@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/protocol/protocol",
+    "pages/index/index",
+    "pages/personal-center/personal-center",
+    "pages/talking-area/talking-area",
+    "pages/search/search",
+    "pages/article/article",
+    "pages/suggestion/suggestion",
+    "pages/change-info/change-info",
+    "pages/my-collection/my-collection",
+    "pages/member/member",
+    "pages/detail/detail",
+    "pages/advanced-search/advanced-search"
+  ],
+  "usingComponents": {
+    "van-button": "/wxcomponents/vant/dist/button/index",
+    "van-uploader": "/wxcomponents/vant/dist/uploader/index"
+  },
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#0055ff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/index.png",
+        "selectedIconPath": "./static/index-clicked.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/talking-area/talking-area",
+        "iconPath": "./static/talking-area.png",
+        "selectedIconPath": "./static/talking-area-clicked.png",
+        "text": "交流论坛"
+      },
+      {
+        "pagePath": "pages/personal-center/personal-center",
+        "iconPath": "./static/personal-center.png",
+        "selectedIconPath": "./static/personal-center-clicked.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

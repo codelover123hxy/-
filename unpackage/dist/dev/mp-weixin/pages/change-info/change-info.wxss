@@ -1,0 +1,25 @@
+
+.wrap{
+		padding:30rpx;
+}
+.password{
+		border-bottom:1rpx solid rgba(1,1,1,0.2);
+		position: absolute;
+		right:20rpx;
+		width:500rpx;
+		height:80rpx;
+}
+.password-view{
+		height:80rpx;
+}
+.submit-btn{
+		background-color:rgb(29, 169, 255);
+		width: 500rpx;
+		color:white;
+		font-weight: 700;
+		margin: 50rpx auto;
+		height:80rpx;
+		border-radius: 40rpx;
+		text-align: center;
+		line-height: 80rpx;
+}

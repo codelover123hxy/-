@@ -1,0 +1,112 @@
+
+.noun-search-results.data-v-c10c040c{
+		padding: 30rpx;
+}
+.hot-words.data-v-c10c040c{
+		padding-left:10rpx;
+		height:60rpx;
+		line-height: 60rpx;
+		border-bottom: 1rpx solid darkgrey;
+}
+.hotwords-view.data-v-c10c040c{
+		margin-top: 30rpx;
+}
+.selected.data-v-c10c040c{
+		background-color:salmon;
+}
+.top.data-v-c10c040c{
+		position: absolute;
+		z-index: 3;
+		background-color: white;
+		padding-bottom:20rpx;
+		top:70rpx;
+		width:100%;
+}
+.methods.data-v-c10c040c{
+		position: relative;
+		padding-top: 50rpx;
+		margin: 0 auto;
+		width: -webkit-fit-content;
+		width: fit-content;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-evenly;
+		height:150rpx;
+		width:100%;
+}
+.unselected.data-v-c10c040c{
+		width:160rpx;
+		height: 60rpx;
+		border-radius: 30rpx;
+		background-color: rgb(227, 227, 227);
+		text-align: center;
+		line-height: 60rpx;
+}
+.selected.data-v-c10c040c{
+		width:160rpx;
+		height: 60rpx;
+		border-radius: 30rpx;
+		text-align: center;
+		line-height: 60rpx;
+		background-color:salmon;
+}
+.confirm.data-v-c10c040c{
+		background-color: aqua;
+		height:70rpx;
+		width:300rpx;
+		line-height: 70rpx;
+		text-align: center;
+		border-radius: 35rpx;
+		margin:0 auto;
+}
+.charts-box.data-v-c10c040c {
+		width: 100%;
+		height: 300px;
+}
+.search.data-v-c10c040c{
+		background-color:rgb(250,250,250);
+		width:100%;
+		height: 70rpx;
+		position: relative;
+}
+.search input.data-v-c10c040c{
+		background-color:rgb(250,250,250);
+		border:none;
+		height: 70rpx;
+		position: absolute;
+		width:400rpx;
+		border-radius: 10rpx;
+		left:50rpx;
+}
+.search button.data-v-c10c040c{
+		position: absolute;
+		right:80rpx;
+		width:70rpx;
+		height: 70rpx;
+		padding: 0;
+		text-align: center;
+}
+.keywords-result.data-v-c10c040c{
+		margin-top: 50rpx;
+		height:900rpx;
+}
+.wrap.data-v-c10c040c{
+		position: fixed;
+		top:150rpx;
+		left:50%;
+		transform:translate(-50%);
+		border-radius: 20rpx;
+		padding: 20rpx;
+		box-sizing: border-box;
+		border:1rpx solid;
+		z-index:3;
+		width:600rpx;
+		height:300rpx;
+		background-color: white;
+}
+.intro.data-v-c10c040c{
+		text-align: center;
+		font-size: larger;
+		color:royalblue;
+		font-weight: 700;
+}

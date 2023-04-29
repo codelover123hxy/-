@@ -1,0 +1,14 @@
+
+.content{
+		padding:20rpx;
+}
+.download{
+		width: 150rpx;
+		height: 50rpx;
+	
+		text-align: center;
+		line-height: 50rpx;
+		background-color: aquamarine;
+		font-weight: 700;
+		color:white;
+}

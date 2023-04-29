@@ -1,0 +1,1 @@
+.content{padding-top:100rpx}.text{background-color:#f0f0f0;height:70rpx;line-height:70rpx;width:600rpx;margin:20rpx auto;padding-left:60rpx;box-sizing:border-box}.tip{text-align:center;font-size:small;color:#4169e1}.register-btn{border-radius:10rpx;height:80rpx;width:600rpx;background-color:#ff4649;color:#fff;font-weight:700;text-align:center;margin:50rpx auto;line-height:80rpx}
